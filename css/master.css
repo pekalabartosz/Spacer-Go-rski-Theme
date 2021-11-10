@@ -197,9 +197,9 @@ a:hover {
     font-size: 1em;
   }
   a {
-    color: #858377;
-    border: 1px solid #858377;;
-    background: #E8E8DB;
+    color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   }
   a:hover {
     padding-top: 20px;
@@ -212,6 +212,6 @@ a:hover {
     border-radius: .25rem;
   }
   #bg {
-    height: 65vh;
+    height: 100vh;
   }
 }
