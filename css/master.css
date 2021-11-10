@@ -45,6 +45,12 @@ a:hover {
   padding-top: 25px;
   padding-bottom: 15px;
 }
+#phone {
+  font-size: 1em;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+}
 .bar {
   padding: 15px;
   z-index: 1;
@@ -181,6 +187,7 @@ a:hover {
     height: auto;
     grid-gap: 10px;
     font-size: 1em;
+    margin-top: 100px;
   }
   #bar {
     font-size: 1em;
@@ -195,5 +202,8 @@ a:hover {
     height: auto;
     object-fit: cover;
     border-radius: .25rem;
+  }
+  #bg {
+    height: 32.5vh + 100px;
   }
 }
