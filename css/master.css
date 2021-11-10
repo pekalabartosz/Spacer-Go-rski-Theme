@@ -4,13 +4,12 @@ html {
 body {
   margin: 0;
   background-color: rgb(236, 237, 239);
-  user-select: none;
   font-family: 'Roboto Slab', serif;
 }
 #logo {
   position: absolute;
   left: 50%;
-  top: 23.9%;
+  top: 20%;
   height: 35px;
   width: auto;
   transform: translate(-50%, -50%);
@@ -63,7 +62,7 @@ a:hover {
 }
 #bg {
   width: 100vw;
-  height: 65vh;
+  height: 50vh;
   object-fit: cover;
   z-index: 0;
 }
@@ -73,7 +72,7 @@ a:hover {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  top: 32.5%;
+  top: 30%;
   transform: translateY(-50%);
 }
 #quote {
@@ -162,6 +161,7 @@ a:hover {
 #footer {
   font-size: 1em;
   color: #858377;
+  text-align: center;
 }
 @media screen and (max-width: 1024px) {
   .options {
@@ -184,10 +184,14 @@ a:hover {
   .bar {
     display: grid;
     width: 50vw;
-    height: auto;
+    height: 50%;
     grid-gap: 10px;
     font-size: 1em;
     margin-top: 100px;
+  }
+  .bgbar {
+    height: 50vh;
+    transform: translateY(-50%);
   }
   #bar {
     font-size: 1em;
@@ -208,6 +212,6 @@ a:hover {
     border-radius: .25rem;
   }
   #bg {
-    height: 32.5vh + 100px;
+    height: 65vh;
   }
 }
