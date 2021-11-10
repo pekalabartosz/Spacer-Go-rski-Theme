@@ -197,8 +197,9 @@ a:hover {
     border: 1px solid #858377;;
     background: #E8E8DB;
   }
-  a:link {
-    text-decoration: none;
+  a:hover {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   #galleryphoto {
     width: 80vw;
