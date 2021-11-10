@@ -194,16 +194,16 @@ a:hover {
     transform: translateY(-50%);
   }
   #bar {
-    font-size: 1em;
+    font-size: 1.05em;
   }
   a {
     color: #fff;
     border: 1px solid #fff;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   }
   a:hover {
     padding-top: 20px;
     padding-bottom: 20px;
+    background: transparent:
   }
   #galleryphoto {
     width: 80vw;
